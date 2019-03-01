@@ -1,0 +1,4 @@
+disabled_rules: # rule identifiers to exclude from running
+- trailing_whitespace
+- unused_setter_value
+- todo

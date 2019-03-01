@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33D445321E38BB800C4EDFF /* TouchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D445221E38BB800C4EDFF /* TouchBarDelegate.swift */; };
+		C33D445621E3B19400C4EDFF /* EscKeyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D445521E3B19400C4EDFF /* EscKeyWidget.swift */; };
+		C33D445921E3B30600C4EDFF /* EscKeyWidgetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D445821E3B30600C4EDFF /* EscKeyWidgetButton.swift */; };
+		C33D445B21E3B34C00C4EDFF /* CustomWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D445A21E3B34C00C4EDFF /* CustomWidget.swift */; };
+		C33D445E21E3B4E400C4EDFF /* CustomMultiWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D445D21E3B4E400C4EDFF /* CustomMultiWidget.swift */; };
+		C33D446021E3C55000C4EDFF /* CustomWidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D445F21E3C55000C4EDFF /* CustomWidgetViewController.swift */; };
+		C33D446321E3F54300C4EDFF /* ActiveAppWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D446221E3F54300C4EDFF /* ActiveAppWidget.swift */; };
+		C33D446621E3F68600C4EDFF /* FixedSizeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D446521E3F68600C4EDFF /* FixedSizeLabel.swift */; };
+		C33D446921E3F70200C4EDFF /* FixedSizeLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D446821E3F70200C4EDFF /* FixedSizeLabelCell.swift */; };
+		C34A65CD21FD3551006B1EAF /* EdgeWindowControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A65CC21FD3551006B1EAF /* EdgeWindowControllerDelegate.swift */; };
+		C350D68021D9DD4900A0ACB6 /* TouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C350D67F21D9DD4900A0ACB6 /* TouchBar.swift */; };
+		C35DB6AB21D9D0230005C189 /* LoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35DB6AA21D9D0230005C189 /* LoginItem.swift */; };
+		C35ECC9721D88C3100E57558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECC9621D88C3100E57558 /* AppDelegate.swift */; };
+		C35ECCAF21D896D300E57558 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35ECCAE21D896D300E57558 /* MainWindow.xib */; };
+		C35ECCB121D89B2700E57558 /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECCB021D89B2700E57558 /* TouchBarController.swift */; };
+		C35ECCB321D8A25500E57558 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECCB221D8A25500E57558 /* Appearance.swift */; };
+		C35ECCB821D8B25100E57558 /* CoreBrightness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35ECCB721D8B25100E57558 /* CoreBrightness.framework */; };
+		C35ECCBA21D8B26A00E57558 /* DisplayServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35ECCB921D8B26A00E57558 /* DisplayServices.framework */; };
+		C35ECCBC21D8B28700E57558 /* MediaRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35ECCBB21D8B28700E57558 /* MediaRemote.framework */; };
+		C35ECCBE21D8B29A00E57558 /* SkyLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35ECCBD21D8B29A00E57558 /* SkyLight.framework */; };
+		C35ECCC021D8B2B500E57558 /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35ECCBF21D8B2B500E57558 /* WeatherKit.framework */; };
+		C35ECCC421D8BD3300E57558 /* PowerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECCC321D8BD3300E57558 /* PowerStatus.swift */; };
+		C35ECCC621D8C5CF00E57558 /* Brightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECCC521D8C5CF00E57558 /* Brightness.swift */; };
+		C35ECCC821D8E2A900E57558 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECCC721D8E2A900E57558 /* System.swift */; };
+		C35ECCCA21D90A6300E57558 /* AudioControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECCC921D90A6300E57558 /* AudioControl.swift */; };
+		C35ECCCE21D920E900E57558 /* KeyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ECCCD21D920E900E57558 /* KeyEvent.swift */; };
+		C36AB3A521FD6486008520D1 /* NSWorkspaceFileOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AB3A421FD6486008520D1 /* NSWorkspaceFileOperations.swift */; };
+		C37BF82921F6CA9A00443B5E /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37BF82821F6CA9A00443B5E /* Main.xcassets */; };
+		C38E93A921EA52E200D5D980 /* EscKeyWidgetButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93A821EA52E200D5D980 /* EscKeyWidgetButtonCell.swift */; };
+		C38E93AC21EA58FC00D5D980 /* DockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93AB21EA58FC00D5D980 /* DockWidget.swift */; };
+		C38E93AE21EA5F3000D5D980 /* DockWidgetApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93AD21EA5F3000D5D980 /* DockWidgetApplication.swift */; };
+		C38E93B021EA5F7A00D5D980 /* DockWidgetItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93AF21EA5F7A00D5D980 /* DockWidgetItemView.swift */; };
+		C38E93B221EA90B300D5D980 /* DockWidgetScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93B121EA90B300D5D980 /* DockWidgetScrubber.swift */; };
+		C38E93B421EA988400D5D980 /* DockWidgetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93B321EA988400D5D980 /* DockWidgetButton.swift */; };
+		C38E93B621EAA2F500D5D980 /* DockWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93B521EAA2F500D5D980 /* DockWidgetView.swift */; };
+		C38E93C121EABAB500D5D980 /* FolderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93C021EABAB500D5D980 /* FolderController.swift */; };
+		C38E93C321EABB6600D5D980 /* FolderControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93C221EABB6600D5D980 /* FolderControllerDelegate.swift */; };
+		C38E93C521EABF7100D5D980 /* FolderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93C421EABF7100D5D980 /* FolderItem.swift */; };
+		C38E93C821EAC01200D5D980 /* FolderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E93C721EAC01200D5D980 /* FolderItemView.swift */; };
+		C39636D22201184B0052EBFB /* FourCharCodeStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39636D12201184B0052EBFB /* FourCharCodeStringExtension.swift */; };
+		C39996262201742300157510 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = C39996252201742300157510 /* Defaults.plist */; };
+		C3A41AD32203E5C100FE3922 /* FSNotify.c in Sources */ = {isa = PBXBuildFile; fileRef = C3A41AD22203E5C100FE3922 /* FSNotify.c */; };
+		C3A41AD72203FCD800FE3922 /* FolderBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A41AD62203FCD800FE3922 /* FolderBar.xib */; };
+		C3AFCB972205D9E100AC999C /* FolderController+NSScrubberDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCB962205D9E100AC999C /* FolderController+NSScrubberDataSource.swift */; };
+		C3AFCB992205DA9A00AC999C /* FolderController+NSScrubberDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCB982205DA9A00AC999C /* FolderController+NSScrubberDelegate.swift */; };
+		C3AFCB9C2206D30600AC999C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C3AFCB9B2206D30600AC999C /* .swiftlint.yml */; };
+		C3AFCB9E2206F4F800AC999C /* DockWidget+NSScrubberDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCB9D2206F4F800AC999C /* DockWidget+NSScrubberDataSource.swift */; };
+		C3AFCBA02206F57100AC999C /* DockWidget+NSScrubberDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCB9F2206F57100AC999C /* DockWidget+NSScrubberDelegate.swift */; };
+		C3AFCBA22206F5EC00AC999C /* DockWidget+EdgeWindowControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCBA12206F5EC00AC999C /* DockWidget+EdgeWindowControllerDelegate.swift */; };
+		C3AFCBA42206FB7B00AC999C /* DockWidget+FolderControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCBA32206FB7B00AC999C /* DockWidget+FolderControllerDelegate.swift */; };
+		C3AFCBA62207F92100AC999C /* DockWidget+Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCBA52207F92100AC999C /* DockWidget+Reset.swift */; };
+		C3AFCBAA2208249800AC999C /* DockWidget+Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AFCBA92208249800AC999C /* DockWidget+Handlers.swift */; };
+		C3B238D721FE8DCC0051BCDD /* NSWorkspaceTrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B238D621FE8DCC0051BCDD /* NSWorkspaceTrash.swift */; };
+		C3D468AD21FA9FC400A99F95 /* EdgeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D468AC21FA9FC400A99F95 /* EdgeWindowController.swift */; };
+		C3D468AF21FAA03500A99F95 /* ImageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D468AE21FAA03500A99F95 /* ImageTitleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C33CC72421D9C292008CA9BB /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		C33D445221E38BB800C4EDFF /* TouchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarDelegate.swift; sourceTree = "<group>"; };
+		C33D445521E3B19400C4EDFF /* EscKeyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscKeyWidget.swift; sourceTree = "<group>"; };
+		C33D445821E3B30600C4EDFF /* EscKeyWidgetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscKeyWidgetButton.swift; sourceTree = "<group>"; };
+		C33D445A21E3B34C00C4EDFF /* CustomWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWidget.swift; sourceTree = "<group>"; };
+		C33D445D21E3B4E400C4EDFF /* CustomMultiWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMultiWidget.swift; sourceTree = "<group>"; };
+		C33D445F21E3C55000C4EDFF /* CustomWidgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWidgetViewController.swift; sourceTree = "<group>"; };
+		C33D446221E3F54300C4EDFF /* ActiveAppWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveAppWidget.swift; sourceTree = "<group>"; };
+		C33D446521E3F68600C4EDFF /* FixedSizeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeLabel.swift; sourceTree = "<group>"; };
+		C33D446821E3F70200C4EDFF /* FixedSizeLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeLabelCell.swift; sourceTree = "<group>"; };
+		C34A65CC21FD3551006B1EAF /* EdgeWindowControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeWindowControllerDelegate.swift; sourceTree = "<group>"; };
+		C350D67F21D9DD4900A0ACB6 /* TouchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBar.swift; sourceTree = "<group>"; };
+		C35DB6AA21D9D0230005C189 /* LoginItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItem.swift; sourceTree = "<group>"; };
+		C35ECC9321D88C3100E57558 /* OpenTouchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTouchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35ECC9621D88C3100E57558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C35ECC9D21D88C3200E57558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35ECCAE21D896D300E57558 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C35ECCB021D89B2700E57558 /* TouchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
+		C35ECCB221D8A25500E57558 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		C35ECCB521D8B23900E57558 /* login.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = login.framework; path = ../../../../../System/Library/PrivateFrameworks/login.framework; sourceTree = "<group>"; };
+		C35ECCB721D8B25100E57558 /* CoreBrightness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBrightness.framework; path = ../../../../../System/Library/PrivateFrameworks/CoreBrightness.framework; sourceTree = "<group>"; };
+		C35ECCB921D8B26A00E57558 /* DisplayServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DisplayServices.framework; path = ../../../../../System/Library/PrivateFrameworks/DisplayServices.framework; sourceTree = "<group>"; };
+		C35ECCBB21D8B28700E57558 /* MediaRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaRemote.framework; path = ../../../../../System/Library/PrivateFrameworks/MediaRemote.framework; sourceTree = "<group>"; };
+		C35ECCBD21D8B29A00E57558 /* SkyLight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkyLight.framework; path = ../../../../../System/Library/PrivateFrameworks/SkyLight.framework; sourceTree = "<group>"; };
+		C35ECCBF21D8B2B500E57558 /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = ../../../../../System/Library/PrivateFrameworks/WeatherKit.framework; sourceTree = "<group>"; };
+		C35ECCC121D8B69900E57558 /* OpenTouchBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTouchBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		C35ECCC321D8BD3300E57558 /* PowerStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerStatus.swift; sourceTree = "<group>"; };
+		C35ECCC521D8C5CF00E57558 /* Brightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brightness.swift; sourceTree = "<group>"; };
+		C35ECCC721D8E2A900E57558 /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		C35ECCC921D90A6300E57558 /* AudioControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioControl.swift; sourceTree = "<group>"; };
+		C35ECCCD21D920E900E57558 /* KeyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyEvent.swift; sourceTree = "<group>"; };
+		C36AB3A421FD6486008520D1 /* NSWorkspaceFileOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSWorkspaceFileOperations.swift; sourceTree = "<group>"; };
+		C36BB82D21D9CB0F00BA3EBE /* OpenTouchBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenTouchBar.entitlements; sourceTree = SOURCE_ROOT; };
+		C37BF82821F6CA9A00443B5E /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
+		C38E93A821EA52E200D5D980 /* EscKeyWidgetButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscKeyWidgetButtonCell.swift; sourceTree = "<group>"; };
+		C38E93AB21EA58FC00D5D980 /* DockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockWidget.swift; sourceTree = "<group>"; };
+		C38E93AD21EA5F3000D5D980 /* DockWidgetApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockWidgetApplication.swift; sourceTree = "<group>"; };
+		C38E93AF21EA5F7A00D5D980 /* DockWidgetItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockWidgetItemView.swift; sourceTree = "<group>"; };
+		C38E93B121EA90B300D5D980 /* DockWidgetScrubber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockWidgetScrubber.swift; sourceTree = "<group>"; };
+		C38E93B321EA988400D5D980 /* DockWidgetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockWidgetButton.swift; sourceTree = "<group>"; };
+		C38E93B521EAA2F500D5D980 /* DockWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockWidgetView.swift; sourceTree = "<group>"; };
+		C38E93C021EABAB500D5D980 /* FolderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderController.swift; sourceTree = "<group>"; };
+		C38E93C221EABB6600D5D980 /* FolderControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderControllerDelegate.swift; sourceTree = "<group>"; };
+		C38E93C421EABF7100D5D980 /* FolderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderItem.swift; sourceTree = "<group>"; };
+		C38E93C721EAC01200D5D980 /* FolderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderItemView.swift; sourceTree = "<group>"; };
+		C39636D12201184B0052EBFB /* FourCharCodeStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCharCodeStringExtension.swift; sourceTree = "<group>"; };
+		C39996252201742300157510 /* Defaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		C3A41AD12203E59C00FE3922 /* FSNotify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNotify.h; sourceTree = "<group>"; };
+		C3A41AD22203E5C100FE3922 /* FSNotify.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FSNotify.c; sourceTree = "<group>"; };
+		C3A41AD62203FCD800FE3922 /* FolderBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FolderBar.xib; sourceTree = "<group>"; };
+		C3AFCB962205D9E100AC999C /* FolderController+NSScrubberDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FolderController+NSScrubberDataSource.swift"; sourceTree = "<group>"; };
+		C3AFCB982205DA9A00AC999C /* FolderController+NSScrubberDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FolderController+NSScrubberDelegate.swift"; sourceTree = "<group>"; };
+		C3AFCB9B2206D30600AC999C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .swiftlint.yml; path = ../src/.swiftlint.yml; sourceTree = "<group>"; };
+		C3AFCB9D2206F4F800AC999C /* DockWidget+NSScrubberDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockWidget+NSScrubberDataSource.swift"; sourceTree = "<group>"; };
+		C3AFCB9F2206F57100AC999C /* DockWidget+NSScrubberDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockWidget+NSScrubberDelegate.swift"; sourceTree = "<group>"; };
+		C3AFCBA12206F5EC00AC999C /* DockWidget+EdgeWindowControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockWidget+EdgeWindowControllerDelegate.swift"; sourceTree = "<group>"; };
+		C3AFCBA32206FB7B00AC999C /* DockWidget+FolderControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockWidget+FolderControllerDelegate.swift"; sourceTree = "<group>"; };
+		C3AFCBA52207F92100AC999C /* DockWidget+Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockWidget+Reset.swift"; sourceTree = "<group>"; };
+		C3AFCBA92208249800AC999C /* DockWidget+Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DockWidget+Handlers.swift"; sourceTree = "<group>"; };
+		C3B238D621FE8DCC0051BCDD /* NSWorkspaceTrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSWorkspaceTrash.swift; sourceTree = "<group>"; };
+		C3CC889B21D95AD1006C3E55 /* CBBlueLightClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBBlueLightClient.h; sourceTree = "<group>"; };
+		C3D468AC21FA9FC400A99F95 /* EdgeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeWindowController.swift; sourceTree = "<group>"; };
+		C3D468AE21FAA03500A99F95 /* ImageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleView.swift; sourceTree = "<group>"; };
+		C3FB8B2221DF92D800DBAF85 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35ECC9021D88C3100E57558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35ECCC021D8B2B500E57558 /* WeatherKit.framework in Frameworks */,
+				C35ECCBE21D8B29A00E57558 /* SkyLight.framework in Frameworks */,
+				C35ECCBC21D8B28700E57558 /* MediaRemote.framework in Frameworks */,
+				C35ECCBA21D8B26A00E57558 /* DisplayServices.framework in Frameworks */,
+				C35ECCB821D8B25100E57558 /* CoreBrightness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33D445421E3B13600C4EDFF /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				C33D445C21E3B3E100C4EDFF /* Custom */,
+				C33D445721E3B2EA00C4EDFF /* EscKey */,
+				C33D446121E3F51A00C4EDFF /* ActiveApp */,
+				C38E93AA21EA58C500D5D980 /* Dock */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		C33D445721E3B2EA00C4EDFF /* EscKey */ = {
+			isa = PBXGroup;
+			children = (
+				C33D445521E3B19400C4EDFF /* EscKeyWidget.swift */,
+				C33D445821E3B30600C4EDFF /* EscKeyWidgetButton.swift */,
+				C38E93A821EA52E200D5D980 /* EscKeyWidgetButtonCell.swift */,
+			);
+			path = EscKey;
+			sourceTree = "<group>";
+		};
+		C33D445C21E3B3E100C4EDFF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				C33D445A21E3B34C00C4EDFF /* CustomWidget.swift */,
+				C33D445D21E3B4E400C4EDFF /* CustomMultiWidget.swift */,
+				C33D445F21E3C55000C4EDFF /* CustomWidgetViewController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C33D446121E3F51A00C4EDFF /* ActiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				C33D446221E3F54300C4EDFF /* ActiveAppWidget.swift */,
+			);
+			path = ActiveApp;
+			sourceTree = "<group>";
+		};
+		C33D446421E3F66100C4EDFF /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				C33D446721E3F6E900C4EDFF /* FixedSizeLabel */,
+				C38E93C621EABFFE00D5D980 /* FolderItem */,
+				C3B203722202961E00671EF4 /* ImageTitleView */,
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
+		C33D446721E3F6E900C4EDFF /* FixedSizeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C33D446521E3F68600C4EDFF /* FixedSizeLabel.swift */,
+				C33D446821E3F70200C4EDFF /* FixedSizeLabelCell.swift */,
+			);
+			path = FixedSizeLabel;
+			sourceTree = "<group>";
+		};
+		C35ECC8A21D88C3100E57558 = {
+			isa = PBXGroup;
+			children = (
+				C3AFCB9B2206D30600AC999C /* .swiftlint.yml */,
+				C35ECC9521D88C3100E57558 /* OpenTouchBar */,
+				C35ECC9421D88C3100E57558 /* Products */,
+				C35ECCB421D8B23900E57558 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C35ECC9421D88C3100E57558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35ECC9321D88C3100E57558 /* OpenTouchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35ECC9521D88C3100E57558 /* OpenTouchBar */ = {
+			isa = PBXGroup;
+			children = (
+				C36BB82D21D9CB0F00BA3EBE /* OpenTouchBar.entitlements */,
+				C3CC889621D957B7006C3E55 /* Legacy */,
+				C35ECCC221D8BC6100E57558 /* System */,
+				C33D445421E3B13600C4EDFF /* Widgets */,
+				C35ECCA421D88F2200E57558 /* Controllers */,
+				C35ECCA521D88F2A00E57558 /* Interface */,
+				C35ECCA921D88F7C00E57558 /* Delegates */,
+				C33D446421E3F66100C4EDFF /* Customs */,
+				C3B238DA21FEAF2A0051BCDD /* Extensions */,
+				C35ECCAA21D88F9700E57558 /* Assets */,
+				C35ECC9D21D88C3200E57558 /* Info.plist */,
+				C39996252201742300157510 /* Defaults.plist */,
+				C35ECCC121D8B69900E57558 /* OpenTouchBar-Bridging-Header.h */,
+			);
+			name = OpenTouchBar;
+			path = ../src/OpenTouchBar;
+			sourceTree = "<group>";
+		};
+		C35ECCA421D88F2200E57558 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3AFCB952205D9BC00AC999C /* Folder */,
+				C35ECCB021D89B2700E57558 /* TouchBarController.swift */,
+				C3D468AC21FA9FC400A99F95 /* EdgeWindowController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C35ECCA521D88F2A00E57558 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C35ECCAE21D896D300E57558 /* MainWindow.xib */,
+				C3A41AD62203FCD800FE3922 /* FolderBar.xib */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		C35ECCA921D88F7C00E57558 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C35ECC9621D88C3100E57558 /* AppDelegate.swift */,
+				C33D445221E38BB800C4EDFF /* TouchBarDelegate.swift */,
+				C38E93C221EABB6600D5D980 /* FolderControllerDelegate.swift */,
+				C34A65CC21FD3551006B1EAF /* EdgeWindowControllerDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C35ECCAA21D88F9700E57558 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C37BF82821F6CA9A00443B5E /* Main.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C35ECCB421D8B23900E57558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3FB8B2221DF92D800DBAF85 /* AppKit.framework */,
+				C33CC72421D9C292008CA9BB /* ServiceManagement.framework */,
+				C35ECCBF21D8B2B500E57558 /* WeatherKit.framework */,
+				C35ECCBD21D8B29A00E57558 /* SkyLight.framework */,
+				C35ECCBB21D8B28700E57558 /* MediaRemote.framework */,
+				C35ECCB921D8B26A00E57558 /* DisplayServices.framework */,
+				C35ECCB721D8B25100E57558 /* CoreBrightness.framework */,
+				C35ECCB521D8B23900E57558 /* login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35ECCC221D8BC6100E57558 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				C35ECCC721D8E2A900E57558 /* System.swift */,
+				C35ECCB221D8A25500E57558 /* Appearance.swift */,
+				C35ECCC921D90A6300E57558 /* AudioControl.swift */,
+				C35ECCC521D8C5CF00E57558 /* Brightness.swift */,
+				C35ECCC321D8BD3300E57558 /* PowerStatus.swift */,
+				C35ECCCD21D920E900E57558 /* KeyEvent.swift */,
+				C35DB6AA21D9D0230005C189 /* LoginItem.swift */,
+				C350D67F21D9DD4900A0ACB6 /* TouchBar.swift */,
+				C36AB3A421FD6486008520D1 /* NSWorkspaceFileOperations.swift */,
+				C3B238D621FE8DCC0051BCDD /* NSWorkspaceTrash.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		C38E93AA21EA58C500D5D980 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				C38E93AB21EA58FC00D5D980 /* DockWidget.swift */,
+				C3AFCB9D2206F4F800AC999C /* DockWidget+NSScrubberDataSource.swift */,
+				C3AFCB9F2206F57100AC999C /* DockWidget+NSScrubberDelegate.swift */,
+				C3AFCBA12206F5EC00AC999C /* DockWidget+EdgeWindowControllerDelegate.swift */,
+				C3AFCBA32206FB7B00AC999C /* DockWidget+FolderControllerDelegate.swift */,
+				C3AFCBA52207F92100AC999C /* DockWidget+Reset.swift */,
+				C3AFCBA92208249800AC999C /* DockWidget+Handlers.swift */,
+				C38E93AD21EA5F3000D5D980 /* DockWidgetApplication.swift */,
+				C38E93AF21EA5F7A00D5D980 /* DockWidgetItemView.swift */,
+				C38E93B121EA90B300D5D980 /* DockWidgetScrubber.swift */,
+				C38E93B321EA988400D5D980 /* DockWidgetButton.swift */,
+				C38E93B521EAA2F500D5D980 /* DockWidgetView.swift */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+		C38E93C621EABFFE00D5D980 /* FolderItem */ = {
+			isa = PBXGroup;
+			children = (
+				C38E93C421EABF7100D5D980 /* FolderItem.swift */,
+				C38E93C721EAC01200D5D980 /* FolderItemView.swift */,
+			);
+			path = FolderItem;
+			sourceTree = "<group>";
+		};
+		C3AFCB952205D9BC00AC999C /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				C38E93C021EABAB500D5D980 /* FolderController.swift */,
+				C3AFCB962205D9E100AC999C /* FolderController+NSScrubberDataSource.swift */,
+				C3AFCB982205DA9A00AC999C /* FolderController+NSScrubberDelegate.swift */,
+			);
+			path = Folder;
+			sourceTree = "<group>";
+		};
+		C3B203722202961E00671EF4 /* ImageTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				C3D468AE21FAA03500A99F95 /* ImageTitleView.swift */,
+			);
+			path = ImageTitleView;
+			sourceTree = "<group>";
+		};
+		C3B238DA21FEAF2A0051BCDD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C39636D12201184B0052EBFB /* FourCharCodeStringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3CC889621D957B7006C3E55 /* Legacy */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC889B21D95AD1006C3E55 /* CBBlueLightClient.h */,
+				C3A41AD12203E59C00FE3922 /* FSNotify.h */,
+				C3A41AD22203E5C100FE3922 /* FSNotify.c */,
+			);
+			path = Legacy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35ECC9221D88C3100E57558 /* OpenTouchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35ECCA121D88C3200E57558 /* Build configuration list for PBXNativeTarget "OpenTouchBar" */;
+			buildPhases = (
+				C3AFCB9A2206C78000AC999C /* SwiftLint */,
+				C35ECC8F21D88C3100E57558 /* Sources */,
+				C35ECC9021D88C3100E57558 /* Frameworks */,
+				C35ECC9121D88C3100E57558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTouchBar;
+			productName = OpenTouchBar;
+			productReference = C35ECC9321D88C3100E57558 /* OpenTouchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35ECC8B21D88C3100E57558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nikita Arutyunov";
+				TargetAttributes = {
+					C35ECC9221D88C3100E57558 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C35ECC8E21D88C3100E57558 /* Build configuration list for PBXProject "OpenTouchBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C35ECC8A21D88C3100E57558;
+			productRefGroup = C35ECC9421D88C3100E57558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35ECC9221D88C3100E57558 /* OpenTouchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35ECC9121D88C3100E57558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AFCB9C2206D30600AC999C /* .swiftlint.yml in Resources */,
+				C39996262201742300157510 /* Defaults.plist in Resources */,
+				C35ECCAF21D896D300E57558 /* MainWindow.xib in Resources */,
+				C37BF82921F6CA9A00443B5E /* Main.xcassets in Resources */,
+				C3A41AD72203FCD800FE3922 /* FolderBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3AFCB9A2206C78000AC999C /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ": '\nif which swiftlint >/dev/null; then\n    swiftlint lint --strict ~/Xcode/OpenTouchBar/src\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n'\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35ECC8F21D88C3100E57558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C350D68021D9DD4900A0ACB6 /* TouchBar.swift in Sources */,
+				C38E93B221EA90B300D5D980 /* DockWidgetScrubber.swift in Sources */,
+				C33D446321E3F54300C4EDFF /* ActiveAppWidget.swift in Sources */,
+				C35ECCC621D8C5CF00E57558 /* Brightness.swift in Sources */,
+				C3D468AF21FAA03500A99F95 /* ImageTitleView.swift in Sources */,
+				C35ECC9721D88C3100E57558 /* AppDelegate.swift in Sources */,
+				C33D446621E3F68600C4EDFF /* FixedSizeLabel.swift in Sources */,
+				C3D468AD21FA9FC400A99F95 /* EdgeWindowController.swift in Sources */,
+				C3AFCBA22206F5EC00AC999C /* DockWidget+EdgeWindowControllerDelegate.swift in Sources */,
+				C33D445621E3B19400C4EDFF /* EscKeyWidget.swift in Sources */,
+				C33D446921E3F70200C4EDFF /* FixedSizeLabelCell.swift in Sources */,
+				C38E93C521EABF7100D5D980 /* FolderItem.swift in Sources */,
+				C35ECCC421D8BD3300E57558 /* PowerStatus.swift in Sources */,
+				C3AFCBA02206F57100AC999C /* DockWidget+NSScrubberDelegate.swift in Sources */,
+				C3AFCB9E2206F4F800AC999C /* DockWidget+NSScrubberDataSource.swift in Sources */,
+				C33D445321E38BB800C4EDFF /* TouchBarDelegate.swift in Sources */,
+				C34A65CD21FD3551006B1EAF /* EdgeWindowControllerDelegate.swift in Sources */,
+				C35ECCCA21D90A6300E57558 /* AudioControl.swift in Sources */,
+				C35ECCCE21D920E900E57558 /* KeyEvent.swift in Sources */,
+				C35ECCB321D8A25500E57558 /* Appearance.swift in Sources */,
+				C39636D22201184B0052EBFB /* FourCharCodeStringExtension.swift in Sources */,
+				C35DB6AB21D9D0230005C189 /* LoginItem.swift in Sources */,
+				C38E93A921EA52E200D5D980 /* EscKeyWidgetButtonCell.swift in Sources */,
+				C3AFCB972205D9E100AC999C /* FolderController+NSScrubberDataSource.swift in Sources */,
+				C3B238D721FE8DCC0051BCDD /* NSWorkspaceTrash.swift in Sources */,
+				C38E93B621EAA2F500D5D980 /* DockWidgetView.swift in Sources */,
+				C33D445B21E3B34C00C4EDFF /* CustomWidget.swift in Sources */,
+				C38E93C321EABB6600D5D980 /* FolderControllerDelegate.swift in Sources */,
+				C33D446021E3C55000C4EDFF /* CustomWidgetViewController.swift in Sources */,
+				C36AB3A521FD6486008520D1 /* NSWorkspaceFileOperations.swift in Sources */,
+				C38E93AE21EA5F3000D5D980 /* DockWidgetApplication.swift in Sources */,
+				C38E93B021EA5F7A00D5D980 /* DockWidgetItemView.swift in Sources */,
+				C38E93B421EA988400D5D980 /* DockWidgetButton.swift in Sources */,
+				C33D445E21E3B4E400C4EDFF /* CustomMultiWidget.swift in Sources */,
+				C3AFCB992205DA9A00AC999C /* FolderController+NSScrubberDelegate.swift in Sources */,
+				C38E93C121EABAB500D5D980 /* FolderController.swift in Sources */,
+				C38E93C821EAC01200D5D980 /* FolderItemView.swift in Sources */,
+				C38E93AC21EA58FC00D5D980 /* DockWidget.swift in Sources */,
+				C3A41AD32203E5C100FE3922 /* FSNotify.c in Sources */,
+				C3AFCBAA2208249800AC999C /* DockWidget+Handlers.swift in Sources */,
+				C3AFCBA42206FB7B00AC999C /* DockWidget+FolderControllerDelegate.swift in Sources */,
+				C3AFCBA62207F92100AC999C /* DockWidget+Reset.swift in Sources */,
+				C35ECCC821D8E2A900E57558 /* System.swift in Sources */,
+				C35ECCB121D89B2700E57558 /* TouchBarController.swift in Sources */,
+				C33D445921E3B30600C4EDFF /* EscKeyWidgetButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C35ECC9F21D88C3200E57558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C35ECCA021D88C3200E57558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C35ECCA221D88C3200E57558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y7BEBZQYA6;
+				INFOPLIST_FILE = "$(SRCROOT)/../src/OpenTouchBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickaroot.OpenTouchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/../src/OpenTouchBar/OpenTouchBar-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		C35ECCA321D88C3200E57558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y7BEBZQYA6;
+				INFOPLIST_FILE = "$(SRCROOT)/../src/OpenTouchBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickaroot.OpenTouchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/../src/OpenTouchBar/OpenTouchBar-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35ECC8E21D88C3100E57558 /* Build configuration list for PBXProject "OpenTouchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ECC9F21D88C3200E57558 /* Debug */,
+				C35ECCA021D88C3200E57558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35ECCA121D88C3200E57558 /* Build configuration list for PBXNativeTarget "OpenTouchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ECCA221D88C3200E57558 /* Debug */,
+				C35ECCA321D88C3200E57558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35ECC8B21D88C3100E57558 /* Project object */;
+}

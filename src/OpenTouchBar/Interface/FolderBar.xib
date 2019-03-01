@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="14460.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="the Touch Bar" minToolsVersion="8.1" minSystemVersion="10.12.2" requiredIntegratedClassName="NSTouchBar"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FolderController" customModule="OpenTouchBar" customModuleProvider="target">
+            <connections>
+                <outlet property="appTouchBar" destination="CG7-Wa-cQw" id="pm9-X3-W3p"/>
+                <outlet property="emptyButton" destination="xwH-IU-Ak2" id="gae-i6-f8W"/>
+                <outlet property="label" destination="3Ne-Ry-eIr" id="Bml-KY-loE"/>
+                <outlet property="openButton" destination="anK-49-lwb" id="9CD-cm-HHv"/>
+                <outlet property="scrubber" destination="vDV-In-MbC" id="H61-pg-geW"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <touchBar id="CG7-Wa-cQw">
+            <touchBarItems>
+                <touchBarItem identifier="scrubber" id="cV2-ux-ehb">
+                    <viewController key="viewController" id="irH-M3-ZFR">
+                        <scrubber key="view" translatesAutoresizingMaskIntoConstraints="NO" id="vDV-In-MbC">
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="30"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <scrubberFlowLayout key="scrubberLayout"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-2" id="EcJ-ef-pjD"/>
+                                <outlet property="delegate" destination="-2" id="aoh-gA-FOi"/>
+                            </connections>
+                        </scrubber>
+                    </viewController>
+                    <size key="designTimeSize" width="361" height="30"/>
+                </touchBarItem>
+                <touchBarItem identifier="label" id="1Ws-a2-QQQ" userLabel="Touch Bar Label">
+                    <viewController key="viewController" id="RS6-T3-kK3">
+                        <textField key="view" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3Ne-Ry-eIr">
+                            <rect key="frame" x="0.0" y="0.0" width="76" height="24"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="100+ files" drawsBackground="YES" id="wNu-zI-Lbr">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </viewController>
+                    <size key="designTimeSize" width="76" height="24"/>
+                </touchBarItem>
+                <touchBarItem identifier="emptyButton" id="Ank-J6-Y9N">
+                    <viewController key="viewController" id="vM5-bI-Pko">
+                        <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xwH-IU-Ak2">
+                            <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="push" title="Empty" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aDX-6z-Tah">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" usesAppearanceFont="YES"/>
+                            </buttonCell>
+                            <color key="bezelColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                            <connections>
+                                <action selector="emptyButtonAction:" target="-2" id="MVt-BY-N5Y"/>
+                            </connections>
+                        </button>
+                    </viewController>
+                </touchBarItem>
+                <touchBarItem identifier="openButton" id="ZiF-16-r5g">
+                    <viewController key="viewController" id="vT6-8Y-1pu">
+                        <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="anK-49-lwb">
+                            <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i2O-XL-Dqi">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" usesAppearanceFont="YES"/>
+                            </buttonCell>
+                            <color key="bezelColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                            <connections>
+                                <action selector="openButtonAction:" target="-2" id="TBM-Xm-4dP"/>
+                            </connections>
+                        </button>
+                    </viewController>
+                </touchBarItem>
+                <touchBarItem identifier="closeButton" id="hpr-Ge-CH7">
+                    <viewController key="viewController" id="RAB-k1-Dfu">
+                        <button key="view" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CNi-xE-Cj8">
+                            <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="Close" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="tjb-9S-sW3">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="close:" target="-2" id="FYg-lz-T1p"/>
+                            </connections>
+                        </button>
+                    </viewController>
+                    <size key="designTimeSize" width="72" height="60"/>
+                </touchBarItem>
+            </touchBarItems>
+            <point key="canvasLocation" x="2.5" y="-107"/>
+        </touchBar>
+    </objects>
+    <resources>
+        <image name="Close" width="60" height="60"/>
+    </resources>
+</document>
